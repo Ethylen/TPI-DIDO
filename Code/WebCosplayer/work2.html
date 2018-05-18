@@ -64,7 +64,7 @@
 				<div class="header-menu-block">
 					<button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button>
 					<ul class="header-menu" id="one">
-						<li><a href="index.html.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="explore.html">Explore</a></li>
 						<li id="ad-work-li"><a id="add-work-btn" class="btn color-1" href="work.html">Add Work </a></li>
 					</ul>
@@ -98,10 +98,58 @@
 									<div class="be-large-post-align "><h3 class="info-block-label">Add Content</h3></div>
 								</div>
 								<div class="be-large-post-align">
-									<div class="upload-zone">
-										<i class="fa center-i fa-cloud-upload"></i>
-										<input class="file" type="file"/>
-									</div>
+									<form class="form-block">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12">
+												<h3>Name of the character</h3>
+												<div class="form-group fl_icon">
+													<div class="icon"><img src="img/user-g-ico.png" alt=""></div>
+													<input class="form-input" type="text" required="" placeholder="Naruto, Luffy, Miku...">
+												</div>
+											</div>
+											<div class="input-col col-xs-12 col-sm-12 fl_icon">
+												<h3>What kind of category ?</h3>
+												<div class="form-group fl_icon">
+													<div class="be-drop-down icon-none">
+														<span class="be-dropdown-content"> Video Game </span>
+														<ul class="drop-down-list">
+															<li><a>Anime</a></li>
+															<li><a>Serie</a></li>
+															<li><a>Movie</a></li>
+															<li><a>Other</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 fl_icon">
+												<h3>Where can we find it ?</h3>
+												<div class="form-group fl_icon">
+													<div class="icon"><img src="img/mail-g-ico.png" alt=""></div>
+													<input class="form-input" type="text" required="" placeholder="Naruto, One Piece, Vocaloid">
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<h3>Something to say ?</h3>
+												<div class="form-group">
+													<textarea class="form-input" required="" placeholder="Your message"></textarea>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 fl_icon">
+												<h4>Does this photo include any content unsuitable for minors?</h4>
+												<div class="form-block">
+													<div class="form-checkbox style-2">
+														<input id="ch4" type="radio" value="" name="radio-c" /> <span class="check"><i class="fa fa-check"></i></span>
+														<label for="ch4">Yes</label>
+													</div>
+													<div class="form-checkbox style-2">
+														<input id="ch5" type="radio" value="" name="radio-c" /> <span class="check"><i class="fa fa-check"></i></span>
+														<label for="ch5">No</label>
+													</div>
+												</div>
+											</div>
+											<button class="btn color-1 size-2 hover-1 pull-right">submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>

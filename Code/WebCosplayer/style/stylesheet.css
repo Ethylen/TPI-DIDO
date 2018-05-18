@@ -2872,7 +2872,6 @@ transition: all ease-out 0.3s;}
 
 .en-nav.active,.en-nav:hover {
     color: #0d58c8;
-    cursor: pointer;
 }
 
 .work-box {

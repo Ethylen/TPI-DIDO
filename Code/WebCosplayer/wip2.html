@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="style/icon.css">
 		<link rel="stylesheet" href="style/loader.css">
 		<link rel="stylesheet" href="style/idangerous.swiper.css">
+		<link rel="stylesheet" href="style/jquery-ui.css">
 		<link rel="stylesheet" href="style/stylesheet.css">
 		<!--[if lt IE 10]>
 			<link rel="stylesheet" type="text/css" href="style/ie-9.css" />
@@ -73,138 +74,86 @@
 		</div>
 	</header>
 
-
 	<!-- MAIN CONTENT -->
-	<div id="content-block">
-		<div class="container be-detail-container">
-			<div class="row">
-				<div class="col-xs-12 col-md-3 left-feild">
-					<div class="be-vidget back-block">
-						<a class="btn full color-1 size-1 hover-1" href="author.html"><i class="fa fa-chevron-left"></i>back to profile</a>
-					</div>
-					<div class="be-vidget hidden-xs hidden-sm" id="scrollspy">
-						<h3 class="letf-menu-article">
-							Choose Category
-						</h3>
-						<div class="creative_filds_block">
-							<ul class="ul nav">
-								<li class="edit-ln"><a href="#basic-information">Basic Information</a></li>
-								<li class="edit-ln"><a href="#on-the-web">On The Web</a></li>
-								<li class="edit-ln"><a href="#about-me">About Me</a></li>
-							</ul>
-						</div>
-					</div>
-
+	<div id="content-block" class="work-box">
+		<div class="editor-menu">
+			<div class="container">
+				<ul class="editor-nav">
+					<li id="content-w" class="en-nav">1. Image</li>
+					<li id="cover-w" class="en-nav active">2. Content</li>
+				</ul>
+				<div class="buttons-navbar">
+					<a href="wip.html"><button type="button" class="btn btn-default">Previous</button></a>
 				</div>
-				<div class="col-xs-12 col-md-9 _editor-content_">
-					<div class="sec"  data-sec="basic-information">
-						<div class="be-large-post">
-							<div class="info-block style-2">
-								<div class="be-large-post-align "><h3 class="info-block-label">Basic Information</h3></div>
-							</div>
-							<div class="be-large-post-align">
-								<div class="be-change-ava">
-									<a class="be-ava-user style-2" href="author.html">
-										<img src="img/ava_10.jpg" alt=""> 
-									</a>
-									<a class="btn color-4 size-2 hover-7">replace image</a>
+			</div>
+		</div>
+		<div class="work-area">
+			<div class="container be-detail-container">
+				<div class="row">
+					<div class="col-xs-12 col-md-12 _editor-content_">
+						<div class="sec"  data-sec="basic-information">
+							<div class="be-large-post large-area">
+								<div class="info-block style-2">
+									<div class="be-large-post-align "><h3 class="info-block-label">Add Content</h3></div>
 								</div>
-							</div>
-							<div class="be-large-post-align">
-								<div class="row">
-									<div class="input-col col-xs-12">
-										<div class="form-group fg_icon focus-2">
-											<div class="form-label">Pseudo</div>
-											<input class="form-input" type="text" value="Pseudo">
-										</div>							
-									</div>
-									<div class="input-col col-xs-12">
-										<div class="form-group focus-2">
-											<div class="form-label">Satut</div>
-											<input class="form-input" type="text" value="Something to say?">
-										</div>								
-									</div>
-									<div class="input-col col-xs-12">
-										<div class="form-label">Country</div>
-										<div class="be-drop-down icon-none">
-											<span class="be-dropdown-content"> United Kingdom </span>
-											<ul class="drop-down-list">
-												<li><a>USA</a></li>
-												<li><a>India</a></li>
-												<li><a>Mexica</a></li>
-												<li><a>Russia</a></li>
-												<li><a>Italy</a></li>
-											</ul>
+								<div class="be-large-post-align">
+									<form class="form-block">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12">
+												<h3>Name of the character</h3>
+												<div class="form-group fl_icon">
+													<div class="icon"><img src="img/user-g-ico.png" alt=""></div>
+													<input class="form-input" type="text" required="" placeholder="Naruto, Luffy, Miku...">
+												</div>
+											</div>
+											<div class="input-col col-xs-12 col-sm-12 fl_icon">
+												<h3>What kind of category ?</h3>
+												<div class="form-group fl_icon">
+													<div class="be-drop-down icon-none">
+														<span class="be-dropdown-content"> Video Game </span>
+														<ul class="drop-down-list">
+															<li><a>Anime</a></li>
+															<li><a>Serie</a></li>
+															<li><a>Movie</a></li>
+															<li><a>Other</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 fl_icon">
+												<h3>Where can we find it ?</h3>
+												<div class="form-group fl_icon">
+													<div class="icon"><img src="img/mail-g-ico.png" alt=""></div>
+													<input class="form-input" type="text" required="" placeholder="Naruto, One Piece, Vocaloid">
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<h3>Something to say ?</h3>
+												<div class="form-group">
+													<textarea class="form-input" required="" placeholder="Your message"></textarea>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 fl_icon">
+												<h4>Does this photo include any content unsuitable for minors?</h4>
+												<div class="form-block">
+													<div class="form-checkbox style-2">
+														<input id="ch4" type="radio" value="" name="radio-c" /> <span class="check"><i class="fa fa-check"></i></span>
+														<label for="ch4">Yes</label>
+													</div>
+													<div class="form-checkbox style-2">
+														<input id="ch5" type="radio" value="" name="radio-c" /> <span class="check"><i class="fa fa-check"></i></span>
+														<label for="ch5">No</label>
+													</div>
+												</div>
+											</div>
+											<button class="btn color-1 size-2 hover-1 pull-right">submit</button>
 										</div>
-									</div>
-								</div>
-								<br>
-								<div class="col-xs-12">
-									<a class="btn color-1 size-2 hover-1 btn-right">OK</a>
+									</form>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="sec" data-sec="on-the-web">
-						<div class="be-large-post m-social">
-							<div class="info-block style-2">
-								<div class="be-large-post-align"><h3 class="info-block-label">On The Web</h3></div>
-							</div>
-							<div class="be-large-post-align">
-								<div class="social-input form-group focus-2">
-									<div class="s_icon">
-										<a class="social-btn color-1" href="#"><i class="fa fa-facebook"></i></a>
-									</div>
-									<div class="s_input">
-										<input class="form-input" type="text" value="http:// facebook.com/taylor">
-									</div>
-								</div>
-								<div class="social-input form-group focus-2">
-									<div class="s_icon">
-										<a class="social-btn color-2" href="#"><i class="fa fa-twitter"></i></a>
-									</div>
-									<div class="s_input">
-										<input class="form-input" type="text" value="http:// twitter.com/taylor">
-									</div>
-								</div>
-								<div class="social-input form-group focus-2">
-									<div class="s_icon">
-										<a class="social-btn color-5" href="#"><i class="fa fa-instagram"></i></a>
-									</div>
-									<div class="s_input">
-										<input class="form-input" type="text" value="http:// instagram.com/taylor">
-									</div>
-								</div>
-								<br>
-								<div class="col-xs-12">
-									<a class="btn color-1 size-2 hover-1 btn-right">OK</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="sec"  data-sec="about-me" >
-						<div class="be-large-post">
-							<div class="info-block style-2">
-								<div class="be-large-post-align"><h3 class="info-block-label">About Me</h3></div>
-							</div>
-							<div class="be-large-post-align">
-								<div class="row">
-									<div class="input-col col-xs-12">
-										<div class="form-group focus-2">
-											<div class="form-label">Description</div>
-											<textarea class="form-input" required="" placeholder="Something about you"></textarea>
-										</div>
-									</div>
-								</div>
-								<br>
-								<div class="col-xs-12">
-									<a class="btn color-1 size-2 hover-1 btn-right">OK</a>
-								</div>
-							</div>						
-						</div>
-					</div>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</div>
@@ -226,10 +175,7 @@
 			</div>
 		</div>
 	</footer>
-
 	<div class="be-fixed-filter"></div>
-
-
 	<div class="theme-config">
 	    <div class="main-color">
 	        <div class="title">Main Color:</div>
@@ -243,17 +189,19 @@
 	            <div class="entry s-color color11"  data-colour="style/style-oranges.css"></div> 
 	            <div class="entry s-color color12"  data-colour="style/style-greens.css"></div>
 	            <div class="entry s-color color13"  data-colour="style/style-reds.css"></div>
-	                       
 	        </div>
 	    </div>
 	   <div class="open"><img src="img/icon-134.png" alt=""></div>
 	</div>
 	<!-- SCRIPT	-->
-	<script src="script/jquery-2.1.4.min.js"></script>		
+	<script src="script/jquery-2.1.4.min.js"></script>
+	<script src="script/jquery-ui.min.js"></script>
 	<script src="script/bootstrap.min.js"></script>	
 	<script src="script/idangerous.swiper.min.js"></script>
 	<script src="script/isotope.pkgd.min.js"></script>	
-	<script src="script/jquery.viewportchecker.min.js"></script>	
+	<script src="script/jquery.viewportchecker.min.js"></script>
+	<script src="script/colors.js"></script>
+	<script src="script/jqColorPicker.js"></script>
 	<script src="script/global.js"></script>	
 	</body>
 </html>

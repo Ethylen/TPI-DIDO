@@ -1,3 +1,5 @@
+
+<!-- Source flip > https://davidwalsh.name/css-flip -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,6 +15,7 @@
 		<link rel="stylesheet" href="style/idangerous.swiper.css">
 		<link rel="stylesheet" href="style/jquery-ui.css">
 		<link rel="stylesheet" href="style/stylesheet.css">
+		<link rel="stylesheet" href="style/custom1.css">
 		<!--[if lt IE 10]>
 			<link rel="stylesheet" type="text/css" href="style/ie-9.css" />
 		<![endif]-->		
@@ -77,17 +80,6 @@
 
 	<!-- MAIN CONTENT -->
 	<div id="content-block" class="work-box">
-		<div class="editor-menu">
-			<div class="container">
-				<ul class="editor-nav">
-					<li id="content-w" class="en-nav">1. Image/Video</li>
-					<li id="cover-w" class="en-nav active">2. Content</li>
-				</ul>
-				<div class="buttons-navbar">
-					<a href="wip.html"><button type="button" class="btn btn-default">Previous</button></a>
-				</div>
-			</div>
-		</div>
 		<div class="work-area">
 			<div class="container be-detail-container">
 				<div class="row">
@@ -95,27 +87,39 @@
 						<div class="sec"  data-sec="basic-information">
 							<div class="be-large-post large-area">
 								<div class="info-block style-2">
-									<div class="be-large-post-align "><h3 class="info-block-label">Add Content</h3></div>
 								</div>
 								<div class="be-large-post-align">
-									<form class="form-block">
-										<div class="row">
-											<div class="col-xs-12 col-sm-12">
-												<h3>Tittle</h3>
-												<div class="form-group fl_icon">
-													<div class="icon"><img src="img/user-g-ico.png" alt=""></div>
-													<input class="form-input" type="text" required="" placeholder="Naruto, Luffy, Miku...">
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<div class="flip-container">
+												<div class="flipper">
+													<a href="cosplay.html">
+														<div class="front">
+														<!-- front content -->
+														<i class="fa fa-plus"></i> Add a cosplay gallery
+													</div>
+														<div class="back">
+															<!-- back content -->
+															Add a new gallery for your cosplay in your profile
+														</div></a>
 												</div>
 											</div>
-											<div class="col-xs-12">
-												<h3>Something to say ?</h3>
-												<div class="form-group">
-													<textarea class="form-input" required="" placeholder="Your message"></textarea>
-												</div>
-											</div>
-											<button class="btn color-1 size-2 hover-1 pull-right">submit</button>
 										</div>
-									</form>
+										<div class="col-xs-12 col-sm-6">
+											<div class="flip-container">
+												<div class="flipper">
+													<a href="cosplay4.html"><div class="front">
+														<!-- front content -->
+														<i class="fa fa-plus"></i> Add an image in a gallery
+													</div>
+														<div class="back">
+															<!-- back content -->
+															Add a new image in a gallery who already exist
+														</div></a>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

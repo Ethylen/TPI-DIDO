@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f71984fa-9658-4d5a-9559-665ee28d2d49" name="Default" comment="Changement de structure dans le menu &gt;&#10;/ Menu&#10;/ Liens">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosplay3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosplay4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/custom1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Documentation/DIDOMENICO_JournalDeBord.xlsm" afterPath="$PROJECT_DIR$/../../Documentation/DIDOMENICO_JournalDeBord.xlsm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity.html" afterPath="$PROJECT_DIR$/activity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author-login.html" afterPath="$PROJECT_DIR$/author-login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author.html" afterPath="$PROJECT_DIR$/author.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosplay.html" afterPath="$PROJECT_DIR$/cosplay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosplay2.html" afterPath="$PROJECT_DIR$/cosplay2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explore.html" afterPath="$PROJECT_DIR$/explore.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wip.html" afterPath="$PROJECT_DIR$/wip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wip2.html" afterPath="$PROJECT_DIR$/wip2.html" />
-    </list>
+    <list default="true" id="f71984fa-9658-4d5a-9559-665ee28d2d49" name="Default" comment="Changement de structure dans le menu &gt;&#10;/ Menu&#10;/ Liens" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -339,7 +321,7 @@
       <workItem from="1526624429577" duration="10881000" />
       <workItem from="1526643634601" duration="4115000" />
       <workItem from="1526979274553" duration="10257000" />
-      <workItem from="1527063909723" duration="5155000" />
+      <workItem from="1527063909723" duration="5282000" />
     </task>
     <task id="LOCAL-00001" summary="Implémentation du template">
       <created>1526539142252</created>
@@ -513,7 +495,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47921000" />
+    <option name="totallyTimeSpent" value="48048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,10 +507,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19955899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19955899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49784714" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.50215286" order="10" side_tool="true" content_ui="tabs" />

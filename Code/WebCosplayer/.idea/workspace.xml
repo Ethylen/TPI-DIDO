@@ -1111,7 +1111,7 @@
       <workItem from="1527063909723" duration="5774000" />
       <workItem from="1527151814403" duration="10582000" />
       <workItem from="1527235667234" duration="21000" />
-      <workItem from="1527236551563" duration="5252000" />
+      <workItem from="1527236551563" duration="5344000" />
     </task>
     <task id="LOCAL-00001" summary="Implémentation du template">
       <created>1526539142252</created>
@@ -1292,7 +1292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64395000" />
+    <option name="totallyTimeSpent" value="64487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1355,7 +1355,8 @@
     <MESSAGE value="Update liens wip" />
     <MESSAGE value="Changement de structure dans le menu &gt;&#10;/ Menu&#10;/ Liens" />
     <MESSAGE value="Changement du titre car inutile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement du titre car inutile" />
+    <MESSAGE value="Creation de la structure en MVC. &#10;/index.php fonctionne&#10;/home.php fonctionne egalement&#10;/explore.php fonctionne avec les images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation de la structure en MVC. &#10;/index.php fonctionne&#10;/home.php fonctionne egalement&#10;/explore.php fonctionne avec les images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

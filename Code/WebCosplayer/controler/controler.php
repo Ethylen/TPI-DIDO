@@ -19,4 +19,7 @@ function explore() {
     require 'view/v_explore.php';
 }
 
+function gallery() {
+    require 'view/v_gallery.php';
+}
 ?>

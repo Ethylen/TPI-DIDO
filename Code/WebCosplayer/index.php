@@ -20,6 +20,10 @@ try {
                 explore();
                 break;
 
+            case 'v_gallery':
+                gallery();
+                break;
+
             default:
                 throw new Exception("Invalid Action");
                 break;

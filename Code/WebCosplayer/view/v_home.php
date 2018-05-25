@@ -7,7 +7,7 @@
  * Time: 11:08
  */
 
-$titre = 'Web Cosplayer - Home';
+$titre = 'Web Cosplayers - Home';
 ob_start()
 ?>
 

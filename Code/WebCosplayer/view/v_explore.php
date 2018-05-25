@@ -7,7 +7,7 @@
  * Time: 11:49
  */
 
-$titre = 'Web Cosplayer - Explore';
+$titre = 'Web Cosplayers - Explore';
 ob_start();
 ?>
 
@@ -71,7 +71,7 @@ ob_start();
                 <div id="container-mix"  class="row _post-container_">
                     <div class="category-1 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/minivg.jpg" alt="omg">
                             </a>
                             <a href="activity.html" class="be-post-title">D.VA</a>
@@ -83,10 +83,10 @@ ob_start();
                     </div>
                     <div class="category-2 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/pp1.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">D.I.N.A</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">D.I.N.A</a>
                             <div class="author-post">
                                 <img src="content/img/a11.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Torra</a></span>
@@ -95,10 +95,10 @@ ob_start();
                     </div>
                     <div class="category-3 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/ppeva1.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">STRENGH</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">STRENGH</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Soma</a></span>
@@ -107,10 +107,10 @@ ob_start();
                     </div>
                     <div class="category-4 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/ppeva2.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">Honoka Kousaka</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">Honoka Kousaka</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Soma</a></span>
@@ -119,10 +119,10 @@ ob_start();
                     </div>
                     <div class="category-5 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/ppeva3.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">Lin</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">Lin</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Soma</a></span>
@@ -131,10 +131,10 @@ ob_start();
                     </div>
                     <div class="category-6 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/ppeva4.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">Fran Ewald for The Diaries Project</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">Fran Ewald for The Diaries Project</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Soma</a></span>
@@ -143,10 +143,10 @@ ob_start();
                     </div>
                     <div class="category-5 mix custom-column-5">
                         <div class="be-post">
-                            <a href="activity.html" class="be-img-block">
+                            <a href="index.php?action=v_gallery" class="be-img-block">
                                 <img src="content/img/ppeva5.jpg" alt="omg">
                             </a>
-                            <a href="activity.html" class="be-post-title">raindrops monochrome</a>
+                            <a href="index.php?action=v_gallery" class="be-post-title">raindrops monochrome</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
                                 <span>by <a href="author.html">Soma</a></span>

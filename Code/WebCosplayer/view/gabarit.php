@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="content/style/loader.css">
     <link rel="stylesheet" href="content/style/idangerous.swiper.css">
     <link rel="stylesheet" href="content/style/jquery-ui.css">
+    <link rel="stylesheet" href="content/style/magnific.css">
     <link rel="stylesheet" href="content/style/stylesheet.css">
 
     <!--[if lt IE 10]>
@@ -46,7 +47,7 @@
     <div class="container-fluid custom-container">
         <div class="row no_row row-header">
             <div class="brand-be">
-                <a href="index.html">
+                <a href="index.php">
                     <img class=" be_logo logo-c active"  src="content/img/logo.png" alt="logo" >
                     <img class="logo-c be_logo" src="content/img/logo-green.png" alt="logo" >
                     <img  class="logo-c be_logo" src="content/img/logo-orang.png" alt="logo" >
@@ -102,20 +103,22 @@
     <div class="main-color">
         <div class="title">Main Color:</div>
         <div class="colours-wrapper">
-            <div class="entry color1 m-color active" data-colour="style/stylesheet.css"></div>
-            <div class="entry color3 m-color"  data-colour="style/style-green.css"></div>
-            <div class="entry color6 m-color"  data-colour="style/style-orange.css"></div>
-            <div class="entry color8 m-color"  data-colour="style/style-red.css"></div>
+            <div class="entry color1 m-color active" data-colour="content/style/stylesheet.css"></div>
+            <div class="entry color3 m-color"  data-colour="content/style/style-green.css"></div>
+            <div class="entry color6 m-color"  data-colour="content/style/style-orange.css"></div>
+            <div class="entry color8 m-color"  data-colour="content/style/style-red.css"></div>
             <div class="title">Second Color:</div>
-            <div class="entry s-color  active color10"  data-colour="style/stylesheet.css"></div>
-            <div class="entry s-color color11"  data-colour="style/style-oranges.css"></div>
-            <div class="entry s-color color12"  data-colour="style/style-greens.css"></div>
-            <div class="entry s-color color13"  data-colour="style/style-reds.css"></div>
+            <div class="entry s-color  active color10"  data-colour="content/style/stylesheet.css"></div>
+            <div class="entry s-color color11"  data-colour="content/style/style-oranges.css"></div>
+            <div class="entry s-color color12"  data-colour="content/style/style-greens.css"></div>
+            <div class="entry s-color color13"  data-colour="content/style/style-reds.css"></div>
         </div>
     </div>
-    <div class="open"><img src="img/icon-134.png" alt=""></div>
+    <div class="open"><img src="content/img/icon-134.png" alt=""></div>
 </div>
 <!-- SCRIPTS	 -->
+<script src="content/script/isotope.pkgd.min.js"></script>
+<script src="content/script/magnific.js"></script>
 <script src="content/script/jquery-2.1.4.min.js"></script>
 <script src="content/script/jquery-ui.min.js"></script>
 <script src="content/script/bootstrap.min.js"></script>

@@ -77,7 +77,7 @@ ob_start();
                             <a href="activity.html" class="be-post-title">D.VA</a>
                             <div class="author-post">
                                 <img src="content/img/a11.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Torra</a></span>
+                                <span>by <a href="index.php?action=v_profile">Torra</a></span>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">D.I.N.A</a>
                             <div class="author-post">
                                 <img src="content/img/a11.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Torra</a></span>
+                                <span>by <a href="index.php?action=v_profile">Torra</a></span>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">STRENGH</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Soma</a></span>
+                                <span>by <a href="index.php?action=v_profile">Soma</a></span>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">Honoka Kousaka</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Soma</a></span>
+                                <span>by <a href="index.php?action=v_profile">Soma</a></span>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">Lin</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Soma</a></span>
+                                <span>by <a href="index.php?action=v_profile">Soma</a></span>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">Fran Ewald for The Diaries Project</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Soma</a></span>
+                                <span>by <a href="index.php?action=v_profile">Soma</a></span>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ ob_start();
                             <a href="index.php?action=v_gallery" class="be-post-title">raindrops monochrome</a>
                             <div class="author-post">
                                 <img src="content/img/avaeva.png" alt="" class="ava-author">
-                                <span>by <a href="author.html">Soma</a></span>
+                                <span>by <a href="index.php?action=v_profile">Soma</a></span>
                             </div>
                         </div>
                     </div>

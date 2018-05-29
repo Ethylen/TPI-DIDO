@@ -24,6 +24,34 @@ try {
                 gallery();
                 break;
 
+            case 'v_profile':
+                profile();
+                break;
+
+            case 'v_profile_edit':
+                profil_edit();
+                break;
+
+            case 'v_wip':
+                wip();
+                break;
+
+            case 'v_cos':
+                add_cos();
+                break;
+
+            case 'v_cos2':
+                add_cos2();
+                break;
+
+            case 'v_cos3':
+                add_cos3();
+                break;
+
+            case 'v_cos4':
+                add_cos4();
+                break;
+
             default:
                 throw new Exception("Invalid Action");
                 break;

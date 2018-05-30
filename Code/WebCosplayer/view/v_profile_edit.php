@@ -46,6 +46,7 @@ Choose Category
 									<a class="btn color-4 size-2 hover-7">replace image</a>
 								</div>
 							</div>
+
 							<div class="be-large-post-align">
 								<div class="row">
 									<div class="input-col col-xs-12">

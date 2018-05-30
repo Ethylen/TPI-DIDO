@@ -20,27 +20,34 @@ ob_start();
                         <a class="be-ava-user style-2" href="author.html">
                             <img src="content/img/avatar.jpg" alt="">
                         </a>
-                        <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit"><i class="fa fa-pencil"></i>Edit</a>
-                        <p class="be-use-name">Torra</p>
-                        <div class="be-user-info">
-                            USA
-                        </div>
-                        <div class="be-text-tags style-2">
-                            RAWR
-                        </div>
-                        <div class="be-user-social">
-                            <a class="social-btn color-1" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="social-btn color-2" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="social-btn color-5" href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
-                        <div class="be-desc-author">
-                            <div class="be-desc-label">About Me</div>
-                            <div class="clearfix"></div>
-                            <div class="be-desc-text">
-                                I'm a tiger. rawr rawr
+                        <?php
+                        foreach ($result as $results) {
+                            ?>
+                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit"><i
+                                        class="fa fa-pencil"></i>Edit</a>
+                            <p class="be-use-name"><?= $results['pseudo'] ?></p>
+                            <div class="be-user-info">
+                                USA
                             </div>
-                        </div>
-                        <br>
+                            <div class="be-text-tags style-2">
+                                <?= $results['statut'] ?>
+                            </div>
+                            <div class="be-user-social">
+                                <a class="social-btn color-1" href="<?= $results['sn1'] ?>"><i class="fa fa-facebook"></i></a>
+                                <a class="social-btn color-2" href="<?= $results['sn2'] ?>"><i class="fa fa-twitter"></i></a>
+                                <a class="social-btn color-5" href="<?= $results['sn3'] ?>"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <div class="be-desc-author">
+                                <div class="be-desc-label">About Me</div>
+                                <div class="clearfix"></div>
+                                <div class="be-desc-text">
+                                    <?= $results['c_description'] ?>
+                                </div>
+                            </div>
+                            <br>
+                            <?php
+                        }
+                            ?>
                     </div>
                 </div>
             </div>

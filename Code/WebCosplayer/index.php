@@ -52,6 +52,14 @@ try {
                 add_cos4();
                 break;
 
+            case 'v_event':
+                add_event();
+                break;
+
+            case 'v_event2':
+                add_event2();
+                break;
+
             default:
                 throw new Exception("Invalid Action");
                 break;

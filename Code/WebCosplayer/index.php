@@ -60,6 +60,14 @@ try {
                 add_event2();
                 break;
 
+            case 'v_awip':
+                add_wip();
+                break;
+
+            case 'v_awip2':
+                add_wip2();
+                break;
+
             default:
                 throw new Exception("Invalid Action");
                 break;

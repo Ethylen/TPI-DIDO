@@ -26,11 +26,13 @@ function gallery() {
 
 //Profile
 function profile() {
+    $result = getCosplayer();
     require 'view/v_profile.php';
 }
 
 //Profile Edit
 function profil_edit() {
+    $result = getCosplayer();
     require 'view/v_profile_edit.php';
 }
 
@@ -52,5 +54,22 @@ function add_cos3(){
 function add_cos4(){
     require 'view/v_add_cos4.php';
 }
+
+//Add an event
+function add_event() {
+    require 'view/v_add_event.php';
+}
+function add_event2() {
+    require 'view/v_add_event2.php';
+}
+
+//Add WIP
+function add_wip() {
+    require 'view/v_add_wip.php';
+}
+function add_wip2() {
+    require 'view/v_add_wip2.php';
+}
+
 
 ?>

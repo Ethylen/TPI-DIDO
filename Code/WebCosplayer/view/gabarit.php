@@ -60,7 +60,7 @@
                 <ul class="header-menu" id="one">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="index.php?action=v_explore">Explore</a></li>
-                    <li class="ad-work-li"><a class="btn color-4 hover-7" href="event.html"><i class="fa fa-plus"></i>Add Event </a></li>
+                    <li class="ad-work-li"><a class="btn color-4 hover-7" href="index.php?action=v_event"><i class="fa fa-plus"></i>Add Event </a></li>
                     <li class="ad-work-li"><a class="btn color-3 hover-5" href="wip.html"><i class="fa fa-plus"></i>Add WIP </a></li>
                     <li class="ad-work-li"><a class="btn color-1" href="index.php?action=v_cos"><i class="fa fa-plus"></i>Add Cosplay </a></li>
                 </ul>

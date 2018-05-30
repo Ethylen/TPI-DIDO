@@ -19,7 +19,7 @@ ob_start();
                 <li id="cover-w" class="en-nav active">2. Content</li>
             </ul>
             <div class="buttons-navbar">
-                <a href="index.php?action=v_add_cos2"><button type="button" class="btn btn-default">Previous</button></a>
+                <a href="index.php?action=v_cos2"><button type="button" class="btn btn-default">Previous</button></a>
             </div>
         </div>
     </div>

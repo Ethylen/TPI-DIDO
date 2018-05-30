@@ -27,7 +27,7 @@ ob_start();
                                     <div class="col-xs-12 col-sm-6">
                                         <div class="flip-container">
                                             <div class="flipper">
-                                                <a href="index.php?action=v_add_cos">
+                                                <a href="index.php?action=v_cos2">
                                                     <div class="front">
                                                         <!-- front content -->
                                                         <i class="fa fa-plus"></i> Add a cosplay gallery
@@ -42,7 +42,7 @@ ob_start();
                                     <div class="col-xs-12 col-sm-6">
                                         <div class="flip-container">
                                             <div class="flipper">
-                                                <a href="index.php?action=v_add_cos4"><div class="front">
+                                                <a href="index.php?action=v_cos4"><div class="front">
                                                         <!-- front content -->
                                                         <i class="fa fa-plus"></i> Add an image in a gallery
                                                     </div>

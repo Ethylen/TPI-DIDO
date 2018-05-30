@@ -19,7 +19,7 @@ ob_start();
                 <li class="en-nav">2. Content</li>
             </ul>
             <div class="buttons-navbar">
-                <a href="cosplay2.html"><button type="button" class="btn btn-success">Next</button></a>
+                <a href="index.php?action=v_add_cos3"><button type="button" class="btn btn-success">Next</button></a>
             </div>
         </div>
     </div>

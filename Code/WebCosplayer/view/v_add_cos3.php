@@ -19,7 +19,7 @@ ob_start();
                 <li id="cover-w" class="en-nav active">2. Content</li>
             </ul>
             <div class="buttons-navbar">
-                <a href="cosplay.html"><button type="button" class="btn btn-default">Previous</button></a>
+                <a href="index.php?action=v_add_cos2"><button type="button" class="btn btn-default">Previous</button></a>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@ ob_start();
                                         <div class="col-xs-12 col-sm-12">
                                             <h3>Name of the character</h3>
                                             <div class="form-group fl_icon">
-                                                <div class="icon"><img src="img/user-g-ico.png" alt=""></div>
+                                                <div class="icon"><img src="content/img/user-g-ico.png" alt=""></div>
                                                 <input class="form-input" type="text" required="" placeholder="Naruto, Luffy, Miku...">
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@ ob_start();
                                         <div class="col-xs-12 col-sm-12 fl_icon">
                                             <h3>Where can we find it ?</h3>
                                             <div class="form-group fl_icon">
-                                                <div class="icon"><img src="img/mail-g-ico.png" alt=""></div>
+                                                <div class="icon"><img src="content/img/mail-g-ico.png" alt=""></div>
                                                 <input class="form-input" type="text" required="" placeholder="Naruto, One Piece, Vocaloid">
                                             </div>
                                         </div>

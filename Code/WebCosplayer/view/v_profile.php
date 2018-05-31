@@ -23,7 +23,7 @@ ob_start();
                         <?php
                         foreach ($result as $results) {
                             ?>
-                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit"><i
+                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit&ID=<?= $results['id_cosplayer'] ?>"><i
                                         class="fa fa-pencil"></i>Edit</a>
                             <p class="be-use-name"><?= $results['pseudo'] ?></p>
                             <div class="be-user-info">

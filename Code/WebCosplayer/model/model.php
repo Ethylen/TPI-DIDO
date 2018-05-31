@@ -46,3 +46,19 @@ function getCosplayer() {
     $result = $connexion->query($req);
     return $result;
 }
+
+/** ----------------------------
+ * GetCosplayer()
+ * Created the 31.05.2018
+ * Update time :
+ * Create by TDO
+ * Comment : Update profile
+ * out : $connexion
+ * -----------------------------
+ */
+
+function upDateProfile($post) {
+    $connexion = getBD();
+    $update = "UPDATE cosplayers set pseudo = '".$post['pseudo']."', statut = '".$post['statut']."', c_description = '".$post['description']."' WHERE id_cosplayer = 1";
+    $up = $connexion->exec($update);
+}

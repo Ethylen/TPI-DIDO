@@ -32,7 +32,6 @@ ob_start()
             <div class="swiper-arrow-right type-2 be-out"></div>
             <h1>Web Cosplayer</h1>
             <p>The best website and social network to share your cosplay's pictures and your WIPS</p>
-            <a class="btn color-1 size-1 hover-1" href="#"><i class="fa fa-facebook"></i>sign up via facebook</a>
             <a class="btn color-3 size-1 hover-6" href="index.php?action=v_explore"><i class="fa fa-search"></i>explore</a>
         </div>
     </div>

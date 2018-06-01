@@ -34,7 +34,7 @@ function profile() {
 function profil_edit() {
     $result = getCosplayer();
     require 'view/v_profile_edit.php';
-    if (!isset($_POST['pseudo'])) {
+    if (isset($_POST['pseudo'])) {
 
         upDateProfile($_POST);
         header('location:index.php?action=v_profile');

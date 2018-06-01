@@ -20,7 +20,7 @@
 
 function getBD() {
     //Connect to the server MySQL
-    $connexion = new PDO ('mysql:host=localhost; dbname=webcosplay_db', 'root', '');
+    $connexion = new PDO ('mysql:host=localhost; dbname=webcosplay_db', 'admin', 'imadmin');
     // Return errors
     $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $connexion;

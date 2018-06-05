@@ -23,9 +23,10 @@ ob_start();
                         <?php
                         foreach ($result as $results) {
                             ?>
-                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit&ID=<?= $results['id_cosplayer'] ?>"><i
+                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit&idprofile="<?= $_SESSION['login'] ?>><i
                                         class="fa fa-pencil"></i>Edit</a>
                             <p class="be-use-name"><?= $results['pseudo'] ?></p>
+                            <span>#<?= $results['profile_id'] ?></span>
                             <div class="be-user-info">
                                 USA
                             </div>

@@ -17,7 +17,7 @@ ob_start();
         <div class="head-bg-content">
             <h1>Web Cosplayer</h1>
             <p>The best website and social network to share your cosplay's pictures and your WIPS</p>
-            <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState(); profile();" data-auto-logout-link="true" data-size="large" data-button-type="continue_with"></fb:login-button>
         </div>
     </div>
     <div class="container-fluid cd-main-content custom-container">

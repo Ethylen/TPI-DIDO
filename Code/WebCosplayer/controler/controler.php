@@ -34,12 +34,6 @@ function profile() {
 function profil_edit() {
     $result = getCosplayer();
     require 'view/v_profile_edit.php';
-    if (isset($_POST['pseudo'])) {
-
-        upDateProfile($_POST);
-        header('location:index.php?action=v_profile');
-    }
-
 }
 
 //WIP
@@ -77,5 +71,8 @@ function add_wip2() {
     require 'view/v_add_wip2.php';
 }
 
+function logout() {
+    require 'view/v_logout.php';
+}
 
 ?>

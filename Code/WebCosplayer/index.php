@@ -68,6 +68,10 @@ try {
                 add_wip2();
                 break;
 
+            case 'v_logout':
+                logout();
+                break;
+
             default:
                 throw new Exception("Invalid Action");
                 break;

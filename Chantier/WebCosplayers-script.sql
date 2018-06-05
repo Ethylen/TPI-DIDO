@@ -10,7 +10,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 -- User Webcosplay_db
 -- -----------------------------------------------------
-DROP USER 'admin'@'localhost'
+DROP USER 'admin'@'localhost';
 CREATE USER 'admin'@'localhost' IDENTIFIED BY 'imadmin';
 GRANT INSERT, SELECT, UPDATE ON * . * TO 'admin'@'localhost';
 FLUSH PRIVILEGES;
@@ -43,7 +43,8 @@ INSERT INTO `countries`(`country_name`) VALUES ('Suisse'), ('France'), ('Belgium
 DROP TABLE IF EXISTS `webcosplay_db`.`cosplayers` ;
 
 CREATE TABLE IF NOT EXISTS `webcosplay_db`.`cosplayers` (
-  `id_cosplayer` INT NOT NULL,
+  `id_cosplayer` INT(50) AUTO_INCREMENT NOT NULL,
+  `profile_id` VARCHAR(100) NOT NULL,
   `pseudo` VARCHAR(45) NOT NULL,
   `statut` VARCHAR(100) NULL,
   `sn1` VARCHAR(200) NULL,
@@ -61,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `webcosplay_db`.`cosplayers` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
--- INSERT INTO `cosplayers`(`pseudo`, `statut`, `sn1`, `sn2`, `sn3`, `c_description`, `fk_country`) VALUES ('Torra', 'Rawr', 'https://www.facebook.com/TorraCosplay/', 'http://twitter.com/aliceolw', 'http://instagram.com/torracosplay', 'Tiny Tiger', 1);
+INSERT INTO `cosplayers`(`profile_id`, `pseudo`, `statut`, `sn1`, `sn2`, `sn3`, `c_description`, `fk_country`) VALUES ('2037846686453978','Torra', 'Rawr', 'https://www.facebook.com/TorraCosplay/', 'http://twitter.com/aliceolw', 'http://instagram.com/torracosplay', 'Tiny Tiger', 1);
 
 -- -----------------------------------------------------
 -- Table `webcosplay_db`.`wips`

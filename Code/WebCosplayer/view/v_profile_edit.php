@@ -9,6 +9,7 @@
 
 $titre = 'Web Cosplayers - Profile edition';
 ob_start();
+$_SESSION['login'] = $_GET['idprofile']
 ?>
 
 <div id="content-block">
@@ -50,6 +51,12 @@ ob_start();
                             </div>
                             <div class="be-large-post-align">
                                 <div class="row">
+                                    <div class="input-col col-xs-12">
+                                        <div class="form-group fg_icon focus-2">
+                                            <div class="form-label">ID</div>
+                                            <input class="form-input" type="text" name="pseudo" disabled value="<?= $_GET['idprofile'] ?>" required>
+                                        </div>
+                                    </div>
                                     <div class="input-col col-xs-12">
                                         <div class="form-group fg_icon focus-2">
                                             <div class="form-label">Pseudo</div>

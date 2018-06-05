@@ -30,61 +30,11 @@
 </head>
 <body >
 
-<script>
-
-
-    // This function is called when someone finishes with the Login
-    // Button.  See the onlogin handler attached to it in the sample
-    // code below.
-    function checkLoginState() {
-        FB.getLoginStatus(function(response) {
-            statusChangeCallback(response);
-        });
-    }
-
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '1753135731437022',
-            cookie     : true,
-            xfbml      : true,
-            version    : 'v3.0'
-        });
-
-        FB.AppEvents.logPageView();
-
-        FB.getLoginStatus(function(response) {
-            statusChangeCallback(response);
-        });
-
-
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-    // This is called with the results from from FB.getLoginStatus().
-    function statusChangeCallback(response) {
-        console.log('statusChangeCallback');
-        console.log(response);
-    }
+<!-- Facebook login in the body -->
+<script src="content/script/fblogin.js">
 
 </script>
-
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.0&appId=236773417076212&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-
 
 <!-- THE LOADER -->
 
@@ -122,8 +72,12 @@
                 </ul>
             </div>
             <div class="login-header-block">
+                <fb:login-button scope="public_profile,email" onlogin="checkLoginState(); profile(); logout();" data-auto-logout-link="true"></fb:login-button>
                 <div class="login_block">
-                    <div class="fb-login-button" data-max-rows="1" data-size="small" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
+                    <?php if (isset($_SESSION['login'])) :?>
+                        <a class=" btn color-1 size-2 hover-2" href="index.php?action=v_profile"><i class="fa fa-user"></i>
+                            Your Profile</a>
+                    <?php endif ?>
                 </div>
             </div>
         </div>
@@ -134,8 +88,6 @@
 <!-- Add main content here-->
 <?= $content ?>
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
 <!-- THE FOOTER -->
 <footer>
     <div class="footer-bottom">

@@ -41,8 +41,7 @@ function getCosplayer() {
     //Connect to the server MySQL
     $connexion = getBD();
     //Request definition
-    $req = "SELECT * FROM cosplayers";
-
+    $req = "SELECT profile_id, pseudo, statut, sn1, sn2, sn3, c_description, cosplayer_image, country_name FROM countries INNER JOIN cosplayers ON id_country = fk_country";
     $result = $connexion->query($req);
     return $result;
 }

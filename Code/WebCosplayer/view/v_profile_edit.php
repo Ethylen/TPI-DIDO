@@ -72,10 +72,10 @@ ob_start();
                                     <div class="input-col col-xs-12">
                                         <div class="form-label">Country</div>
                                         <div class="be-drop-down icon-none">
-                                            <span class="be-dropdown-content"> United Kingdom </span>
+                                            <span class="be-dropdown-content">Your country</span>
                                             <ul class="drop-down-list">
                                                 <?php foreach ($cc as $country){
-                                                echo "<li><a>".$country."</a></a>";
+                                                    echo "<li><a>".$country['country_name']."</a></li>";
                                                 } ?>
                                             </ul>
                                         </div>

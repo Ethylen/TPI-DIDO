@@ -28,7 +28,7 @@ foreach ($result as $results) {
                             <p class="be-use-name"><?= $results['pseudo'] ?></p>
                             <span>#<?= $results['profile_id'] ?></span>
                             <div class="be-user-info">
-                                USA
+                               <?= $results['country_name'] ?>
                             </div>
                             <div class="be-text-tags style-2">
                                 <?= $results['statut'] ?>
@@ -72,26 +72,26 @@ foreach ($result as $results) {
                             <div class="row">
                                 <div class="col-ml-12 col-xs-6 col-sm-4">
                                     <div class="be-post style-4">
-                                        <a href="activity.html" class="be-img-block">
+                                        <a href="index.php?action=v_gallery" class="be-img-block">
                                             <img src="content/img/p1666.jpg" alt="omg">
                                         </a>
-                                        <a href="activity.html" class="be-post-title">D.VA</a>
+                                        <a href="index.php?action=v_gallery" class="be-post-title">D.VA</a>
                                     </div>
                                 </div>
                                 <div class="col-ml-12 col-xs-6 col-sm-4">
                                     <div class="be-post style-4">
-                                        <a href="activity.html" class="be-img-block">
+                                        <a href="index.php?action=v_gallery" class="be-img-block">
                                             <img src="content/img/pp1.jpg" alt="omg">
                                         </a>
-                                        <a href="activity.html" class="be-post-title">D.I.A.N.A</a>
+                                        <a href="index.php?action=v_gallery" class="be-post-title">D.I.A.N.A</a>
                                     </div>
                                 </div>
                                 <div class="col-ml-12 col-xs-6 col-sm-4">
                                     <div class="be-post style-4">
-                                        <a href="activity.html" class="be-img-block">
+                                        <a href="index.php?action=v_gallery" class="be-img-block">
                                             <img src="content/img/pp2.jpg" alt="omg">
                                         </a>
-                                        <a href="activity.html" class="be-post-title">Aya Shameimaru</a>
+                                        <a href="index.php?action=v_gallery" class="be-post-title">Aya Shameimaru</a>
                                     </div>
                                 </div>
                             </div>

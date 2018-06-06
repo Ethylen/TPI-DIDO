@@ -9,7 +9,7 @@
 
 $titre = 'Web Cosplayers - Profile edition';
 ob_start();
-$_SESSION['login'] = $_GET['idprofile']
+
 ?>
 
 <div id="content-block">
@@ -43,8 +43,8 @@ $_SESSION['login'] = $_GET['idprofile']
                             </div>
                             <div class="be-large-post-align">
                                 <div class="be-change-ava">
-                                    <a class="be-ava-user style-2" href="author.html">
-                                        <img src="content/img/avatar.jpg" alt="">
+                                    <a class="be-ava-user style-2" href="#">
+                                        <img src="<?= $results['cosplayer_image']?>" alt="">
                                     </a>
                                     <a class="btn color-4 size-2 hover-7">replace image</a>
                                 </div>
@@ -54,7 +54,7 @@ $_SESSION['login'] = $_GET['idprofile']
                                     <div class="input-col col-xs-12">
                                         <div class="form-group fg_icon focus-2">
                                             <div class="form-label">ID</div>
-                                            <input class="form-input" type="text" name="pseudo" disabled value="<?= $_GET['idprofile'] ?>" required>
+                                            <input class="form-input" type="text" name="pseudo" disabled value="<?= $results['profile_id'] ?>" required>
                                         </div>
                                     </div>
                                     <div class="input-col col-xs-12">
@@ -74,11 +74,9 @@ $_SESSION['login'] = $_GET['idprofile']
                                         <div class="be-drop-down icon-none">
                                             <span class="be-dropdown-content"> United Kingdom </span>
                                             <ul class="drop-down-list">
-                                                <li><a>USA</a></li>
-                                                <li><a>India</a></li>
-                                                <li><a>Mexica</a></li>
-                                                <li><a>Russia</a></li>
-                                                <li><a>Italy</a></li>
+                                                <?php foreach ($cc as $country){
+                                                echo "<li><a>".$country."</a></a>";
+                                                } ?>
                                             </ul>
                                         </div>
                                     </div>

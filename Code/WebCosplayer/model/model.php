@@ -48,6 +48,46 @@ function getCosplayer() {
 }
 
 /** ----------------------------
+ * GetCosplayer2()
+ * Created the 06.06.2018
+ * Update time :
+ * Create by TDO
+ * Comment : Profile Data
+ * out : $resultat
+ * -----------------------------
+ */
+
+function getCosplayer2($post) {
+    //Connect to the server MySQL
+    $connexion = getBD();
+    //Request definition
+    $req = "SELECT * FROM cosplayers WHERE profile_id = '".$post."'";
+
+    $resultt = $connexion->query($req);
+    return $resultt;
+}
+
+/** ----------------------------
+ * GetCountry()
+ * Created the 06.06.2018
+ * Update time :
+ * Create by TDO
+ * Comment : Country data
+ * out : $cc
+ * -----------------------------
+ */
+
+function getCountry() {
+    //Connect to the server MySQL
+    $connexion = getBD();
+    //Request definition
+    $req = "SELECT * FROM countries";
+
+    $cc = $connexion->query($req);
+    return $cc;
+}
+
+/** ----------------------------
  * GetCosplayer()
  * Created the 31.05.2018
  * Update time :

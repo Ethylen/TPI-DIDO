@@ -11,19 +11,19 @@ $titre = 'Web Cosplayers - profile';
 ob_start();
 ?>
 
+<?php
+foreach ($result as $results) {
+    ?>
 <div id="content-block">
     <div class="container be-detail-container">
         <div class="row">
             <div class="col-xs-12 col-md-4 left-feild">
                 <div class="be-user-block style-3">
                     <div class="be-user-detail">
-                        <a class="be-ava-user style-2" href="author.html">
-                            <img src="content/img/avatar.jpg" alt="">
+                        <a class="be-ava-user style-2" href="index.php?action=v_profile">
+                            <img src="<?= $results['cosplayer_image'] ?>" alt="">
                         </a>
-                        <?php
-                        foreach ($result as $results) {
-                            ?>
-                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit&idprofile="<?= $_SESSION['login'] ?>><i
+                            <a class="be-ava-left btn color-1 size-2 hover-1" href="index.php?action=v_profile_edit"><i
                                         class="fa fa-pencil"></i>Edit</a>
                             <p class="be-use-name"><?= $results['pseudo'] ?></p>
                             <span>#<?= $results['profile_id'] ?></span>

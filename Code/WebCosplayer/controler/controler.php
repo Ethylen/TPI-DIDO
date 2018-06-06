@@ -32,6 +32,7 @@ function profile() {
 
 //Profile Edit
 function profil_edit() {
+    $cc = getCountry();
     $result = getCosplayer();
     require 'view/v_profile_edit.php';
 }

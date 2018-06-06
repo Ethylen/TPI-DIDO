@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="content/style/magnific.css">
     <link rel="stylesheet" href="content/style/stylesheet.css">
     <link rel="stylesheet" href="content/style/custom1.css">
-
     <!--[if lt IE 10]>
     <link rel="stylesheet" type="text/css" href="content/style/ie-9.css" />
     <![endif]-->
@@ -26,9 +25,9 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 <body >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <!-- Facebook login in the body -->
 <script src="content/script/fblogin.js">
@@ -72,12 +71,15 @@
                 </ul>
             </div>
             <div class="login-header-block">
-                <fb:login-button scope="public_profile,email" onlogin="checkLoginState(); profile(); logout();" data-auto-logout-link="true"></fb:login-button>
                 <div class="login_block">
-                    <?php if (isset($_SESSION['login'])) :?>
-                        <a class=" btn color-1 size-2 hover-2" href="index.php?action=v_profile"><i class="fa fa-user"></i>
-                            Your Profile</a>
-                    <?php endif ?>
+                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" data-auto-logout-link="true"></fb:login-button>
+                        <div class="be-drop-down login-user-down btn size-1 color-3">
+                            <span class="be-dropdown-content">Your profile</span>
+                            <div class="drop-down-list a-list">
+                                <a href="index.php?action=v_profile">My Profile</a>
+                                <a href="index.php?action=v_profile_edit">Account Settings</a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>

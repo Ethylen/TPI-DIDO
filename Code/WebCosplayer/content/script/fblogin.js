@@ -2,7 +2,7 @@
  * Created by tiffany.di-domenico on 05.06.2018.
  * Facebook login
  */
-
+var id = 1;
 // This function is called when someone finishes with the Login
 // Button.  See the onlogin handler attached to it in the sample
 // code below.
@@ -14,7 +14,7 @@ function checkLoginState() {
 
 window.fbAsyncInit = function() {
     FB.init({
-        appId      : '1753135731437022',
+        appId      : '1680874508674356',
         cookie     : true,
         xfbml      : true,
         version    : 'v3.0'
@@ -25,7 +25,6 @@ window.fbAsyncInit = function() {
     FB.getLoginStatus(function(response) {
         statusChangeCallback(response);
     });
-
 
 };
 
@@ -49,30 +48,23 @@ function statusChangeCallback(response) {
     if (response.status === 'connected') {
         // Logged into your app and Facebook.
         testAPI();
-    }else{
-        FB.logout(function(response) {
-            // Person is now logged out
-            window.open('index.php?action=v_logout', '_self');
-        });
     }
 }
-var id;
+
 // Here we run a very simple test of the Graph API after login is
 // successful.  See statusChangeCallback() for when this call is made.
 function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-        var id2 = response.id;
+        id2 = response.id;
         id = id2;
         console.log('Welcome : ' + response.name);
-        console.log('Your ID : ' + response.id);
+        console.log('Your ID : ' + id);
     });
 }
 
-function profile() {
-    window.open('index.php?action=v_profile_edit&idprofile='+id,'_self')
+function profile(){
+    window.open('index.php?action=v_logout&idprofile='+id, '_self');
 }
-
-
 
 

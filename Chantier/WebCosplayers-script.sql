@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `webcosplay_db`.`cosplayers` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `cosplayers`(`profile_id`, `pseudo`, `statut`, `sn1`, `sn2`, `sn3`, `c_description`, `fk_country`) VALUES ('2037846686453978','Torra', 'Rawr', 'https://www.facebook.com/TorraCosplay/', 'http://twitter.com/aliceolw', 'http://instagram.com/torracosplay', 'Tiny Tiger', 1);
+INSERT INTO `cosplayers`(`profile_id`, `pseudo`, `statut`, `sn1`, `sn2`, `sn3`, `c_description`, `fk_country`, `cosplayer_image`) VALUES ('2037846686453978','Torra', 'Rawr', 'https://www.facebook.com/TorraCosplay/', 'http://twitter.com/aliceolw', 'http://instagram.com/torracosplay', 'Tiny Tiger', 1, 'content/img/avatar.jpg');
 
 -- -----------------------------------------------------
 -- Table `webcosplay_db`.`wips`
